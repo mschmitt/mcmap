@@ -1,7 +1,7 @@
 import { unpack } from 'https://cdn.jsdelivr.net/npm/msgpackr@1.11.8/+esm';
 import { createApp, reactive, ref, computed, watch, onMounted, markRaw, shallowRef } from '../lib/vue.esm-browser.js';
 import * as ntools from './node-utils.js';
-const apiUrl = 'https://map.meshcore.dev/api/v1/nodes?binary=1&short=1';
+const apiUrl = 'https://team-frickel.de/php-cross-domain-proxy/proxy.php?csurl=https://map.meshcore.io/api/v1/nodes&binary=1&short=1';
 
 function uint8ArrayToHex(uint8arr) {
 	const hexOctets = new Array(uint8arr.length);
