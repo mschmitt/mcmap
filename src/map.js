@@ -269,7 +269,7 @@ const appAttribution = `
 	<a target="_blank" href="${getDeletionMailUrl()}"><strong>Node deletion request</strong></a>
 `;
 
-const baseMapSelected = localStorage.getItem('baseMapSelected') || 'OpenStreetMap';
+const baseMapSelected = localStorage.getItem('baseMapSelected') || 'OpenTopoMap';
 const baseMaps = {
 	'OpenStreetMap': L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
